@@ -1,4 +1,4 @@
-let animation = anime({
+let zest = anime({
   targets: "#zest",
   translateX: 40,
   translateY: 80,
@@ -10,4 +10,12 @@ let animation = anime({
   loop: true,
   easing: "spring(1, 80, 10, 0)",
   direction: "alternate",
+});
+
+let funk = anime({
+  targets: "#funk",
+  width: "100%", // -> from '28px' to '100%',
+  easing: "easeInOutQuad",
+  direction: "alternate",
+  loop: true,
 });
