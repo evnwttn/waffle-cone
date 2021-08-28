@@ -4,8 +4,10 @@ let animation = anime({
   translateY: 80,
   rotateX: 30,
   rotateY: 30,
-  borderRadius: 10,
-  duration: 2500,
-  easing: "linear",
+  scaleX: 1.5,
+  skewX: 50,
+  rotate: -180,
+  loop: true,
+  easing: "spring(1, 80, 10, 0)",
   direction: "alternate",
 });
